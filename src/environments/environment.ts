@@ -6,7 +6,8 @@ export const environment = {
   companySlogan: 'Tu portal de GIFs',
 
   // ApiKeys
-
+  giphyApiKey: 'kLrbI6i5grqXhqhJCg0yBwmLHwlqUWvg',
+  giphyUrl: '/giphy',
   // URLS
 
 };
