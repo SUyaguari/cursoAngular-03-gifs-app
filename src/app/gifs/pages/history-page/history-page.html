@@ -1,8 +1,11 @@
+<div class="h-screen overflow-y-scroll">
 
-<h2 class="text-2xl font-bold mt-5">Resultados de: {{ query() }}</h2>
+  <h2 class="text-2xl font-bold mt-5">Resultados de: {{ query() }}</h2>
 
-<section class="py-5">
+  <div class="py-5">
 
-  <gif-list [gifs]="gifsByKey()" />
+    <gif-list [gifs]="gifsByKey()" />
 
-</section>
+  </div>
+
+</div>
